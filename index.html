@@ -1,0 +1,406 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Ciclo de charlas #HowTo</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<link href="css/lightbox.css" rel="stylesheet">
+	<link href="fonts/avenir-font.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Poppins:400,600,700,500,300' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,900italic,900,700italic,700,400italic,500,500italic,300,100italic,100,300italic' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+</head>
+<body>
+<header class="header">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 ">
+				<div class="navbar-header">
+					    <button type="button" class="navbar-toggle menu-button" data-toggle="collapse" data-target="#myNavbar">
+					        <span class="glyphicon glyphicon-align-justify"></span>
+					    </button>
+      					<a class="navbar-brand logo" href="#">  #HowTo  </a>
+    			</div>
+			</div>
+			<div class="col-md-8">
+				<nav class="collapse navbar-collapse" id="myNavbar" role="navigation">
+					<ul class="nav navbar-nav navbar-right menu">
+							<li><a href="#page-top" class="page-scroll active">Inicio</a></li>
+							<li><a href="#description" class="page-scroll">¿Qué es esto?</a><li>
+							<li><a href="#calendar" class="page-scroll">Calendario</a></li>
+							<li><a href="#work" class="page-scroll">Charlas</a></li>
+							<li><a href="#contacto" class="page-scroll">Contacto</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+</header>
+
+<div class="container-fluid main" id="page-top">
+	<div class="row">
+		<div class="col-md-12 backg">
+			<div class="col-md-4 col-md-offset-4 inner col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3">
+				<div class="text-box">
+                	<!--<p class="intro">Próximo Evento</p>
+					<p class="date"> Viernes 19 de Agosto, 13:45 hrs </p>-->
+					<p class="intro"> Evento Terminado </p>
+					<a type="button" data-toggle="modal" data-target="#Charla7Modal"  class="btn btn-default"> Ver recursos disponibles </a> <br><br>
+					
+                    <h2>Tutorial d3.js</h2>
+					<h3>Visualizaciones en la Web</h3>
+                    <p>Por <span><a style="color: #ff6666;" href="https://twitter.com/jazminemf">Jazmine Maldonado</a></span></p>
+				</div>
+  			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid main" id="description">
+	<div class="col-md-12 some-notes">
+		<div class="title">
+            <h2 class="text-center portfolio-text">¿Qué es esto?</h2>
+        </div>
+        <div class="desc">
+            <p> Cada Viernes a las 13:45, un integrante del grupo #HowTo introducirá un tema en particular de su expertiz al público presente. El espectro de temas a tratar será amplio, concentrado en tópicos relacionados a la computación pero también explorando otros ámbitos, buscando aportar en la culturización de los estudiantes del departamento, funcionarios y académicos interesados. A su vez, dada su duración y horario, la idea es ofrecerlas como una alternativa a la mayor cantidad de alumnos posibles, con la profundidad suficiente para aprovechar de buena manera del tiempo dispuesto, sin ser demasiado ambiciosas respecto al aprendizaje. </p>
+        </div>
+	</div>
+</div>
+
+<div class="container-fluid features" id="calendar">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h2 class="text-center features-text">Calendario</h2>
+				<div class="responsive-iframe-container text-center">
+			 	<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=200&amp;wkst=2&amp;bgcolor=%23ffffff&amp;src=v23sanimlreev3chei01gai52c%40group.calendar.google.com&amp;color=%235A6986&amp;ctz=America%2FSantiago" style="border:solid 1px #777" width="800" height="100" frameborder="0" scrolling="no"></iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid work" id="work">
+	<div class="container">
+		<div class="row" id="starts">
+			<div class="col-md-12 col-sm-12 col-xs-12 work-list">
+				<h2 class="text-center portfolio-text">Charlas</h2>
+				
+				<!-- CHARLA I: CRIPTOGRAFÍA -->
+				<div class="col-md-4 col-sm-6 col-xs-12 work-space">
+					<a href="#" data-toggle="modal" data-target="#Charla1Modal">
+                		<div class="featured-img">
+                			<img src="images/charla1.jpg"/>
+                		</div>
+                	</a>
+				</div>
+				<!-- Contenido del Modal -->
+				<div id="Charla1Modal" class="modal fade" role="dialog">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title">Charla I: Conceptos básicos de Criptografía: ¿Qué debo ocupar para tener la seguridad adecuada?</h4>
+							</div>
+							<div class="modal-body">
+								<p> Presentada por Camilo Gómez </p>
+								<iframe src="https://docs.google.com/presentation/d/1oXufIeffF2dY01zsw9K4xFYYuPUNcO6VHjjvrUZR_AU/embed?start=false&loop=false&delayms=5000" frameborder="0" width="562" height="350" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Volver</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<!-- CHARLA II: CERVEZA -->
+				<div class="col-md-4 col-sm-6 col-xs-12 work-space">
+					<a href="#work" data-toggle="modal" data-target="#Charla2Modal">
+                		<div class="featured-img">
+                			<img src="images/charla2.png"/>
+                		</div>            		
+                	</a>
+				</div>
+				<!-- Contenido del Modal  -->
+				<div id="Charla2Modal" class="modal fade" role="dialog">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title">Charla II: Cerveza, sus más refrescantes secretos.</h4>
+							</div>
+							<div class="modal-body">
+								<p> Presentada por Nicolás Lehmann </p>
+								<!-- iframe generado en google drive, reveal.js o powerpoint online -->
+								<!--<img src="images/charla2.png" style="height:400px; width:auto;" /> -->
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/UEURRBNnycU" frameborder="0" allowfullscreen></iframe>
+								
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Volver</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- CHARLA III: BITCOINS -->
+				<div class="col-md-4 col-sm-6 col-xs-12 work-space">
+					<a href="#work" data-toggle="modal" data-target="#Charla3Modal">
+                		<div class="featured-img">
+                			<img src="images/charla3.png"/>
+                		</div>            		
+                	</a>
+				</div>
+				<!-- Contenido del Modal -->
+				<div id="Charla3Modal" class="modal fade" role="dialog">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title">Charla III: Bitcoins, cuando los bits se convirtieron en dinero.</h4>
+							</div>
+							<div class="modal-body">
+								<p> Presentada por Francisco Montoto </p>
+								<!-- iframe generado en google drive, reveal.js o powerpoint online -->
+								<iframe src="https://docs.google.com/presentation/d/1xJ9fidHkh12xkpkhWlAln2cb61ngur6MnPkCVxWTvGo/embed?start=false&loop=false&delayms=5000" frameborder="0" width="562" height="350" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+								
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Volver</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- CHARLA IV: CAFE -->
+				<div class="col-md-4 col-sm-6 col-xs-12 work-space">
+					<a href="#" data-toggle="modal" data-target="#Charla4Modal">
+                		<div class="featured-img">
+                			<img src="images/charla4.jpg"/>
+                		</div>
+                	</a>
+				</div>
+				<!-- Contenido del Modal -->
+				<div id="Charla4Modal" class="modal fade" role="dialog">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title">Charla IV: El buen café, de la planta a su taza</h4>
+							</div>
+							<div class="modal-body">
+								<p> Presentada por Omar Miranda </p>
+								<iframe src="https://docs.google.com/presentation/d/1bLP4JUtqIzBRAhiAx8mJFl1NDSORr_vnBVVsVHSIcOI/embed?slide=id.p&start=false&loop=false&delayms=5000" frameborder="0" width="562" height="350" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe><br><br>
+
+								<span class='button'><a href="https://goo.gl/photos/Dg5YqegJbjXdeqHR9"> Ir a galería de fotos y videos <br> <img width="300" src="images/galeria-cafe.jpg"/></a></<span>
+
+
+
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Volver</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- CHARLA V:  -->
+				<div class="col-md-4 col-sm-6 col-xs-12 work-space">
+					<a href="#" data-toggle="modal" data-target="#Charla5Modal">
+                		<div class="featured-img">
+                			<img src="images/charla5.jpg"/>
+                		</div>
+                	</a>
+				</div>
+				
+				<!-- Contenido del Modal -->
+				<div id="Charla5Modal" class="modal fade" role="dialog">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title">Charla VII: Git01 Introducción al versionamiento</h4>
+							</div>
+							<div class="modal-body">
+								<p> Presentada por Boris Romero </p>
+								<!--<iframe src="https://docs.google.com/presentation/d/1Doxhsnmg3t6M8mtvWMHujApW8bhQFptEb7jRvbeI-mE/embed?slide=id.p&start=false&loop=false&delayms=5000" frameborder="0" width="562" height="350" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe><br><br>-->
+
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Volver</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- CHARLA VI:  -->
+				<div class="col-md-4 col-sm-6 col-xs-12 work-space">
+					<a href="#" data-toggle="modal" data-target="#Charla6Modal">
+                		<div class="featured-img">
+                			<img src="images/charla6.jpg"/>
+                		</div>
+                	</a>
+				</div>
+				
+				<!-- Contenido del Modal -->
+				<div id="Charla6Modal" class="modal fade" role="dialog">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title">Charla VI: Fotografía 101 - Tips, historia y fundamentos</h4>
+							</div>
+							<div class="modal-body">
+								<p> Presentada por Mauricio Quezada </p>
+								<iframe src="files/charla6.pdf#zoom=38" frameborder="0" width="562" height="350" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe><br><br>
+
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Volver</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<!-- CHARLA VII: D3 -->
+				<div class="col-md-4 col-sm-6 col-xs-12 work-space">
+					<a href="#" data-toggle="modal" data-target="#Charla7Modal">
+                		<div class="featured-img">
+                			<img src="images/charla7.jpg"/>
+                		</div>
+                	</a>
+				</div>
+				
+				<!-- Contenido del Modal -->
+				<div id="Charla7Modal" class="modal fade" role="dialog">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title">Charla VII: Tutorial d3.js - Visualizaciones en la Web</h4>
+							</div>
+							<div class="modal-body">
+								<p> Presentada por Jazmine Maldonado </p>
+								<iframe src="https://docs.google.com/presentation/d/1Doxhsnmg3t6M8mtvWMHujApW8bhQFptEb7jRvbeI-mE/embed?slide=id.p&start=false&loop=false&delayms=5000" frameborder="0" width="562" height="350" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe><br><br>
+
+								<span class='button'><a href="https://drive.google.com/drive/folders/0B5ppVxR1O_c3dUU4dWN2dldoZjg?usp=sharing"> Carpeta Google Drive <br> Presentación + Código </a></<span>
+
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Volver</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid notes" id="contacto">
+  	<div class="row">
+   		<div class="col-md-12 col-sm-12 col-xs-12 notes-bg">
+    		<div class="container">
+    			<div class="col-md-8 col-sm-8 col-xs-12">
+     				<p>Nos interesa saber tu opinión y si tienes sugerencias sobre qué cosas mejorar o qué cosas mantener.</p>
+    			</div>
+    			<div class="col-md-offset-1 col-md-2 col-md-offset-1 col-sm-offset-1 col-sm-2 col-sm-offset-1 col-xs-12">
+     				<a type="button" href="http://goo.gl/forms/W6fyvOcLaR"  class="btn btn-default btneff">Contactar</a>
+    			</div>
+   			</div>
+   		</div>
+  	</div> 
+</div>
+
+<!--<div class="container-fluid footer">
+	<div class="row">
+		<div class="col-md-12">
+			<p>Copyright &copy; Ravalic 2015 By <a href="http://www.html5layouts.com">HTML5 Layouts</a> | <a href="http://vectortoons.com/">Get Vector Graphics</a></p>
+		</div>
+	</div>
+</div>-->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.countTo.js"></script>
+    <script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
+    <script>
+	$(document).ready(function () {
+		$(document).on("scroll", onScroll);
+ 
+		$('a[href^="#"]').on('click', function (e) {
+			e.preventDefault();
+			$(document).off("scroll");
+ 
+			$('a').each(function () {
+				$(this).removeClass('active');
+			})
+			$(this).addClass('active');
+ 
+			var target = this.hash;
+			$target = $(target);
+			$('html, body').stop().animate({
+				'scrollTop': $target.offset().top
+			}, 500, 'swing', function () {
+				window.location.hash = target;
+				$(document).on("scroll", onScroll);
+			});
+		});
+	});
+ 
+	function onScroll(event){
+		var scrollPosition = $(document).scrollTop();
+		$('nav a').each(function () {
+			var currentLink = $(this);
+			var refElement = $(currentLink.attr("href"));
+			if (refElement.position().top <= scrollPosition && refElement.position().top + refElement.height() > scrollPosition) {
+				$('nav ul li a').removeClass("active");
+				currentLink.addClass("active");
+			}
+			else{
+				currentLink.removeClass("active");
+			}
+		});
+	}
+	</script>
+	<script type="text/javascript">
+    jQuery(function ($) {
+      // custom formatting example
+      $('.timer').data('countToOptions', {
+        formatter: function (value, options) {
+          return value.toFixed(options.decimals).replace(/\B(?=(?:\d{3})+(?!\d))/g, ',');
+        }
+      });
+ 
+      // start all the timers
+      $('#starts').waypoint(function() {
+    $('.timer').each(count);
+	});
+ 
+      function count(options) {
+        var $this = $(this);
+        options = $.extend({}, options || {}, $this.data('countToOptions') || {});
+        $this.countTo(options);
+      }
+    });
+  	</script>
+</body>
+</html>
